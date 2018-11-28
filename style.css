@@ -1,0 +1,65 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+form {
+	display: flex;
+	background-color: rgb(106,161,208);
+	justify-content: space-between;
+	font-family: Helvetica, Arial, serif-sans
+	height: 2000px;
+	width: 1650px;
+}
+input {
+	border: 2px solid #ededed;
+	background-color: transparent;
+	height: 75px;
+	width: 500px;
+	font-size:30px;
+	color: #ededed;
+
+}
+input:focus {
+	border: 2px solid #3c6c97;
+	outline: none;
+	font-size: 30px;
+
+}
+select {
+	border: 2px solid #ededed;
+	background-color: transparent;
+	color: #ededed;
+	height: 50px;
+	width: 500px;
+	font-size: 30px
+}
+select:focus {
+	border: 2px solid #3c6c97;
+	outline: none;
+	font-size: 30px;
+}
+textarea {
+	border: 2px solid #ededed;
+	background-color: transparent;
+	height: 250px;
+	width: 500px;
+	font-size:30px;
+	color: #ededed;
+}
+textarea:focus {
+	border: 2px solid #3c6c97;
+	outline: none;
+}
+label {
+	color: #ededed;
+	text-transform: uppercase;
+}
+fieldset {
+	display: flex;
+	border: transparent;
+}
+::placeholder {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	padding-left: 15px;
+}
