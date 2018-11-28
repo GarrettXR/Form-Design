@@ -5,45 +5,48 @@ form {
 	display: flex;
 	background-color: rgb(106,161,208);
 	justify-content: space-between;
-	font-family: Helvetica, Arial, serif-sans
-	height: 2000px;
-	width: 1650px;
+	font-family: Verdana, Arial
+	height: 1000px;
+	width: 680px;
 }
 input {
 	border: 2px solid #ededed;
 	background-color: transparent;
-	height: 75px;
-	width: 500px;
-	font-size:30px;
+	height: 25px;
+	width: 200px;
+	font-size:10px;
 	color: #ededed;
+	padding-left: 10px;
 
 }
 input:focus {
 	border: 2px solid #3c6c97;
 	outline: none;
-	font-size: 30px;
+	font-size: 10px;
 
 }
 select {
 	border: 2px solid #ededed;
 	background-color: transparent;
 	color: #ededed;
-	height: 50px;
-	width: 500px;
-	font-size: 30px
+	height: 20px;
+	width: 200px;
+	font-size: 10px
+
 }
 select:focus {
 	border: 2px solid #3c6c97;
 	outline: none;
-	font-size: 30px;
+	font-size: 10px;
 }
 textarea {
 	border: 2px solid #ededed;
 	background-color: transparent;
-	height: 250px;
-	width: 500px;
-	font-size:30px;
+	height: 150px;
+	width: 200px;
+	font-size:10px;
 	color: #ededed;
+
 }
 textarea:focus {
 	border: 2px solid #3c6c97;
@@ -52,14 +55,15 @@ textarea:focus {
 label {
 	color: #ededed;
 	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Verdana, Arial
 }
 fieldset {
 	display: flex;
 	border: transparent;
 }
 ::placeholder {
-	display: flex;
-	flex-wrap: wrap;
-	font-size: 30px;
-	padding-left: 15px;
+	font-size: 10px;
+	padding-top: 5px;
+	font-style: italic;
 }
